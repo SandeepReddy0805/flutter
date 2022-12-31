@@ -21,6 +21,7 @@ import 'package:shelf_static/shelf_static.dart';
 /// request. This function has no opinion about what that string contains.
 Future<String> evalTestAppInChrome({
   int a = 10,
+  int b = 20,
   required String appUrl,
   required String appDirectory,
   int serverPort = 8080,
